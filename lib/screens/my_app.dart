@@ -168,7 +168,7 @@ class _MyAppState extends State<MyApp> {
                       });
 
                       await controller.injectJavascriptFileFromAsset(
-                          assetFilePath: "assets/injectedScript.bundle.js");
+                          assetFilePath: "assets/inject.js");
                       print("injected javascript ");
                     },
                     onLoadError: (controller, url, code, message) {
